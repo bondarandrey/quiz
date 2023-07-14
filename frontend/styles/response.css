@@ -1,0 +1,148 @@
+.test {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.test-pre-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #DCDCF3;
+}
+
+.test-pre-title span{
+    color: #6933DC;
+}
+
+
+
+.test-question-title {
+    font-size: 36px;
+    line-height: 43px;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+}
+
+.test-question-title span {
+    color: #6933DC;
+}
+
+.test-question-options {
+    margin-top: 58px;
+    min-height: 344px;
+}
+
+.test-question-option {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.test-question-option span{
+    color: #6933DC;
+}
+.test-question-option label {
+    cursor: pointer;
+}
+
+.test-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.pass-question {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.pass-question a {
+    font-size: 17px;
+    line-height: 20px;
+    color: #6933DC;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.pass-question a:hover{
+    text-decoration: underline;
+}
+
+.pass-question a img {
+    margin-left: 13px;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #6933DC;
+    border-radius: 50%;
+    margin: 0 13px 0 0;
+    transform: translateY(2px);
+
+    display: grid;
+    place-content: center;
+}
+input-correct[type="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    border: 6px solid #33dc7c;
+    border-radius: 50%;
+    margin: 0 13px 0 0;
+    transform: translateY(2px);
+
+    display: grid;
+    place-content: center;
+}
+input-nocorrect[type="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    border: 6px solid #ee0b0b;
+    border-radius: 50%;
+    margin: 0 13px 0 0;
+    transform: translateY(2px);
+
+    display: grid;
+    place-content: center;
+}
+
+
+.response-question{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 125px;
+
+}
+
+.response-question a{
+    font-size: 17px;
+    line-height: 20px;
+    color: #6933DC;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 175px;
+    cursor: pointer;
+}
+
+
+.response-question a:hover{
+    text-decoration: underline;
+}
+
+.response-question a img {
+    margin-left: 13px;
+}
+
+
+
+
+
